@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_yoga"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffc107"
+    tools:context="com.example.stander.josip.healthandshape.MainYogaActivity">
+
+    <TextView
+        android:id="@+id/tv_weightTitle"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:text="Yoga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iw_weightImage"
+        android:layout_marginLeft="70dp"
+        android:src="@drawable/lotus"
+        android:paddingTop="9dp"
+        android:layout_marginTop="-30dp"
+        android:layout_width="235dp"
+        android:layout_height="170dp" />
+
+    <LinearLayout
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#ff9100"
+        android:layout_marginTop="-15dp"
+        android:orientation="vertical"
+        android:layout_marginLeft="45dp"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="Workout Completed!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_marginTop="7dp"
+            android:paddingLeft="23dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="19dp"
+            android:text="Complete type 1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_marginTop="7dp"
+            android:paddingLeft="23dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="19dp"
+            android:text="Complete type 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_marginTop="7dp"
+            android:paddingLeft="23dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="19dp"
+            android:text="Complete type 3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_marginTop="7dp"
+            android:paddingLeft="23dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="19dp"
+            android:text="Complete type 4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_marginTop="7dp"
+            android:paddingLeft="23dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="19dp"
+            android:text="Complete type 5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:background="#ff6d00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:textSize="17dp"
+            android:text="BACK"
+            android:backgroundTint="#d50000"
+            android:background="@drawable/rounded_corners"
+            android:textColor="#fff"
+            android:id="@+id/b_backYoga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <Button
+            android:layout_marginLeft="70dp"
+            android:layout_marginTop="15dp"
+            android:textSize="17dp"
+            android:text="NEXT"
+            android:backgroundTint="#d50000"
+            android:background="@drawable/rounded_corners"
+            android:textColor="#fff"
+            android:id="@+id/b_nextYoga"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

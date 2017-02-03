@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main_cardio"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1de9b6"
+    tools:context="com.example.stander.josip.healthandshape.MainCardioActivity">
+
+    <TextView
+        android:id="@+id/tv_weightTitle"
+        android:textColor="#fff"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:textSize="30dp"
+        android:text="Cardio"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:id="@+id/iw_weightImage"
+        android:layout_marginLeft="80dp"
+        android:src="@drawable/hart"
+        android:paddingTop="10dp"
+        android:layout_width="225dp"
+        android:layout_height="127dp" />
+
+    <LinearLayout
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#009688"
+        android:orientation="vertical"
+        android:layout_marginLeft="45dp"
+        android:layout_width="290dp"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_marginTop="8dp"
+            android:textSize="20dp"
+            android:textColor="#fff"
+            android:layout_gravity="center"
+            android:text="Workout Completed!"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_marginTop="7dp"
+            android:paddingLeft="23dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="19dp"
+            android:text="Walk 2 miles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_marginTop="7dp"
+            android:paddingLeft="33dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="19dp"
+            android:text="Run 3 miles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_marginTop="7dp"
+            android:paddingLeft="24dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="19dp"
+            android:text="Sprint 200 m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_marginTop="7dp"
+            android:paddingLeft="23dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="19dp"
+            android:text="Sprint 400 m"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <CheckBox
+            android:layout_marginTop="7dp"
+            android:paddingLeft="33dp"
+            android:layout_gravity="center"
+            android:textColor="#fff"
+            android:textSize="19dp"
+            android:text="Run 5 miles"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="35dp"
+        android:background="#00695c"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_marginLeft="148dp"
+            android:layout_marginTop="15dp"
+            android:textSize="17dp"
+            android:text="BACK"
+            android:backgroundTint="#d50000"
+            android:background="@drawable/rounded_corners"
+            android:textColor="#fff"
+            android:id="@+id/b_nextCardio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>

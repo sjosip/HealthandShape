@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#263238"
+    tools:context="com.example.stander.josip.healthandshape.MainActivity"
+    android:baselineAligned="false">
+
+    <RelativeLayout
+        android:id="@+id/weightButton"
+        android:layout_width="360dp"
+        android:layout_height="482dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#2196f3">
+
+        <TextView
+            android:layout_width="65dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#01579b"
+            android:gravity="center"
+            android:text="10 sets"
+            android:textColor="#fff"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp"
+            android:text=" Weight lifting"
+            android:textColor="#fff"
+            android:textSize="19dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="302dp"
+            android:text="30%"
+            android:textColor="#fff"
+            android:textSize="29dp" />
+
+
+        <ImageView
+            android:id="@+id/iview1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/weights" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/yogaButton"
+        android:layout_width="360dp"
+        android:layout_height="482dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#ffc107">
+
+        <TextView
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#795548"
+            android:text=" 1 hour"
+            android:textColor="#fff"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="302dp"
+            android:text="20%"
+            android:textColor="#fff"
+            android:textSize="29dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp"
+            android:text=" Yoga"
+            android:textColor="#fff"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:id="@+id/iview2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginLeft="120dp"
+            android:src="@drawable/lotus" />
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/cardioButton"
+        android:layout_width="360dp"
+        android:layout_height="482dp"
+        android:layout_marginBottom="12dp"
+        android:layout_marginLeft="12dp"
+        android:layout_marginTop="14dp"
+        android:layout_weight="1"
+        android:background="@drawable/rounded_corners"
+        android:backgroundTint="#00e676">
+
+        <TextView
+            android:layout_width="63dp"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/rounded_corners"
+            android:backgroundTint="#00695c"
+            android:text=" 5 miles"
+            android:textColor="#fff"
+            android:textSize="17dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="302dp"
+            android:text="25%"
+            android:textColor="#fff"
+            android:textSize="29dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="3dp"
+            android:text=" Cardio"
+            android:textColor="#fff"
+            android:textSize="19dp" />
+
+        <ImageView
+            android:id="@+id/iview3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:src="@drawable/hart" />
+
+
+    </RelativeLayout>
+
+
+</LinearLayout>
